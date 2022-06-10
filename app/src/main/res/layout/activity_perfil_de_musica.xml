@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilMusica">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textColor="#1EA0C0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="393dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail:"
+        android:textColor="#1EA0C0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="398dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textColor="#1EA0C0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="401dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="407dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="389dp"
+        android:layout_height="309dp"
+        app:srcCompat="@drawable/logoMusica"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERFIL"
+        android:textColor="#1EA0C0"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="102dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#00C2CB"
+        android:text="ENTRAR"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="746dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="117dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#1EA0C0"
+        android:text="VOLTAR"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="746dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
